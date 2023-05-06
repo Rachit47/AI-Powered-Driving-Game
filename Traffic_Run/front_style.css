@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+}
+#gameTitle {
+  background-clip: text;
+  margin-top: 5px;
+  background-color: #21d4fd;
+  background-color: #3cff49;
+  background-image: linear-gradient(
+    225deg,
+    #3edd35 0%,
+    #27d7ea 50%,
+    #2b86c5 100%
+  );
+
+  font-family: "Orbitron";
+  font-size: 5vw;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 1;
+  border-style: outset;
+  border-color: rgb(104, 99, 99);
+  border-radius: 20px;
+  border-width: 8px;
+}
+form {
+  /* background-color: rgb(57, 49, 101); */
+  background-image: url("synthwave-city-car-wallpaper-2560x1080_14.jpg");
+  background-size: cover;
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  max-width: 100%;
+  /*transform: translateX(-50%) translateY(-50%);*/
+  display: flex;
+  box-sizing: border-box;
+  flex-direction: column;
+  border-radius: 5px;
+  justify-content: center;
+  align-items: center;
+}
+form > p {
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+form > p > a {
+  padding: 2vmax;
+  margin-top: 50px;
+  width: 20vw;
+  text-align: center;
+  color: white;
+  text-decoration: none;
+  font-size: 2vmax;
+  background-image: linear-gradient(
+    to right,
+    #000000,
+    #358ec6,
+    #4198b7,
+    #050505
+  );
+  font-family: "Orbitron";
+  outline: none;
+  border-radius: 15px;
+  transition: all 0.5s;
+  border: none;
+}
+form > a {
+  margin: 2vmax;
+  padding: 2vmax;
+  width: 16vw;
+  cursor: pointer;
+  border: none;
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  transition: all 0.5s;
+  background: linear-gradient(
+    90deg,
+    rgb(8, 4, 93) 0%,
+    rgb(3, 19, 125) 25%,
+    rgb(236, 64, 69) 100%
+  );
+  font-size: 2vmax;
+  border-radius: 15px;
+  font-family: "Orbitron";
+  outline: none;
+}
+
+form > select:hover {
+  box-shadow: 0 0 40px rgb(0, 0, 0);
+  text-decoration: none;
+}
+form > a:visited,
+a:hover {
+  text-decoration: none;
+  background-color: rgb(135, 220, 93);
+  box-shadow: 0 0 50px rgb(255, 255, 255);
+}
